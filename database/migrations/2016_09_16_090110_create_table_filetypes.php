@@ -27,6 +27,5 @@ class CreateTableFiletypes extends Migration
      */
     public function down()
     {
-        Schema::drop('filetypes');
     }
 }
