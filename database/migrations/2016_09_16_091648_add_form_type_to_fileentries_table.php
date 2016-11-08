@@ -12,7 +12,7 @@ class AddFormTypeToFileentriesTable extends Migration
      */
     public function up()
     {
-        Schema::table('fileentries', function (Blueprint $table) {
+        Schema::table('uploads', function (Blueprint $table) {
 
             $table->unsignedInteger('filetype_id')->index()->nullable();
             $table->foreign('filetype_id')->references('id')->on('filetypes')->onDelete('cascade');
@@ -27,7 +27,7 @@ class AddFormTypeToFileentriesTable extends Migration
      */
     public function down()
     {
-        Schema::table('fileentries', function (Blueprint $table) {
+        Schema::table('uploads', function (Blueprint $table) {
             //
         });
     }
