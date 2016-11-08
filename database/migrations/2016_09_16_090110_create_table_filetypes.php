@@ -27,5 +27,6 @@ class CreateTableFiletypes extends Migration
      */
     public function down()
     {
+        //
     }
 }
