@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50fb0a52-8514-452a-81e9-98aa1e328ecb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vansomeren-intranet.iml" afterPath="$PROJECT_DIR$/.idea/vansomeren-intranet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-    </list>
+    <list default="true" id="50fb0a52-8514-452a-81e9-98aa1e328ecb" name="Default" comment="" />
     <ignored path="vansomeren-intranet.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -185,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1478529030884</updated>
       <workItem from="1478529033975" duration="217000" />
-      <workItem from="1478586570138" duration="611000" />
+      <workItem from="1478586570138" duration="787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="828000" />
+    <option name="totallyTimeSpent" value="1004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
