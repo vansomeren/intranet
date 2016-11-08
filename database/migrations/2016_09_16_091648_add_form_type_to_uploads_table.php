@@ -27,10 +27,6 @@ class AddFormTypeToUploadsTable extends Migration
      */
     public function down()
     {
-        Schema::table('uploads', function (Blueprint $table) {
-
-                $table->dropColumn('filetype_id');
-
-        });
+        Schema::dropIfExists('filetypes');
     }
 }
