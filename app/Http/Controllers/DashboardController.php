@@ -35,22 +35,13 @@ class DashboardController extends Controller {
             ->orderBy('created_at','desc')
             ->paginate(4);
 
-        $entries = DB::table('uploads')
-            ->select('uploads.created_at','uploads.id', 'uploads.subject','departments.name')
-            ->join('departments','uploads.filetype_id','=','departments.id')
-            ->where('uploads.id','like','%'.$search.'%')
-            ->orWhere('uploads.created_at','like','%'.$search.'%')
-            ->orWhere('uploads.subject','like','%'.$search.'%')
-            ->orWhere('departments.name','like','%'.$search.'%')
-            ->orderBy('created_at','desc')
-            ->paginate(4);
+
 
 
         return view('dashboard',[
             'employed'=>$employed,
             'training' => $training,
             'announced' => $announced,
-            'entries' => $entries
 
         ]);
     }

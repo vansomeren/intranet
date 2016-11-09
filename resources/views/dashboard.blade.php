@@ -39,7 +39,6 @@
         </div>
     </div>
     @include('partials.useful_links')
-    @include('partials.circulars')
     @include('partials.latest_announcement')
     @include('partials.latest_employee')
     @include('layouts.footer')
